@@ -7,7 +7,7 @@ st.set_page_config('PedraoDlc - ECOP06',
 st.title('Pagina Teste ECOP06')
 
 
-esportes = pd.read_csv('https://github.com/MainakRepositor/Datasets/raw/master/GeneralEsportData.csv', enconding='latin-1')
+esportes = pd.read_csv('https://github.com/MainakRepositor/Datasets/raw/master/GeneralEsportData.csv', encoding='latin-1')
 
 
 st.dataframe(esportes)
